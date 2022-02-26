@@ -1,4 +1,4 @@
-# Space Travelers
+# React Frontend
 
 > This app uses React and Redux, Along with React Router for data manipulation from a couple of web services. It is a SPA with the store object attached to the index.js component used by all of the components to make use and manupulate the data. It uses the backend rails api to get the data from the backend and display it on the frontend to manipulate data with requests made to the server with axios.
 
