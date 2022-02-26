@@ -41,7 +41,8 @@
     "no-else-return": "off",
     "array-callback-return": "off",
     "consistent-return": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "arrow-body-style": "off"
   },
   "ignorePatterns": ["dist/", "build/", "server/"]
 }

@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
+import { Container } from '@mui/material';
+import Body from './components/Body';
 import { getComics } from './redux/actions/comicActions';
 
 function App() {
@@ -9,7 +11,13 @@ function App() {
     dispatch(getComics());
   }, [dispatch]);
 
-  return <>Hello React</>;
+  return (
+    <>
+      <Container maxWidth="sm">
+        <Body />
+      </Container>
+    </>
+  );
 }
 
 export default App;
